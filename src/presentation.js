@@ -3,14 +3,9 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import {
-  BlockQuote,
-  Cite,
   Deck,
   Heading,
-  ListItem,
   Image,
-  List,
-  Quote,
   Slide,
   Text,
 } from 'spectacle';
@@ -20,7 +15,6 @@ import createTheme from 'spectacle/lib/themes/default';
 
 const phantomImg = require('./phantomjs.png');
 const stepsDown = require('./nophantom.png');
-const browserless = require('./browserless.png');
 
 // Require CSS
 require('normalize.css');
@@ -54,7 +48,7 @@ export default class Presentation extends React.Component {
         <Slide bgColor="primary" fit>
           <Image src={stepsDown} width="75%" />
           <Text size={1} caps lineHeight={1} textColor="secondary" margin="20px 0 0 0">
-            Vitaly says <span role="img">👋</span>
+            Vitaly says <span role="img" aria-label="bye bye">👋</span>
           </Text>
         </Slide>
         <Slide transition={['spin']} bgColor="primary">
