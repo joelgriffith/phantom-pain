@@ -1,4 +1,4 @@
-# Phaton Pain
+# Phatom Pain
 
 Hey! This is a presentation repo _plus_ a tech-demo of all the cool stuff you can do with the power of React and Puppeteer!
 
